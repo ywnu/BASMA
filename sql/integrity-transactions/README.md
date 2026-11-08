@@ -2,7 +2,7 @@
 
 **Project:** BASMA (MySQL database course project)
 
-**Assigned branch:** `feature/hanan-integrity-transactions`
+**Assigned branch:** `feature/integrity-transactions`
 
 ## Tasks
 1. Test primary/foreign-key, uniqueness, NOT NULL and other approved integrity constraints.
@@ -25,4 +25,4 @@ Integrity tests, transaction scripts, cascade/restrict examples, test evidence.
 - [ ] Tests executed and results documented
 - [ ] Pull request opened for integration review
 
-**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Deem.
+**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Diyam.

@@ -2,10 +2,10 @@
 
 **Project:** BASMA (MySQL database course project)
 
-**Assigned branch:** `feature/jumanah-schema-integration`
+**Assigned branch:** `feature/schema-integration`
 
 ## Tasks
-1. Review Deem's approved EER diagram and map it to a relational schema.
+1. Review Diyam's approved EER diagram and map it to a relational schema.
 2. Implement MySQL CREATE TABLE scripts with PK, FK, data types, NOT NULL and other agreed constraints.
 3. Define a safe creation order and deletion behavior; do not cascade-delete verification history without approval.
 4. Integrate other members' scripts, resolve dependencies, and produce a reproducible database setup script.
@@ -25,4 +25,4 @@ Relational schema, MySQL DDL scripts, integrated setup/run order, integration te
 - [ ] Tests executed and results documented
 - [ ] Pull request opened for integration review
 
-**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Deem.
+**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Diyam.

@@ -2,7 +2,7 @@
 
 **Project:** BASMA (MySQL database course project)
 
-**Assigned branch:** `feature/aseel-sql-operations`
+**Assigned branch:** `feature/sql-operations`
 
 ## Tasks
 1. Create representative INSERT data for all approved tables, respecting foreign-key order.
@@ -25,4 +25,4 @@ Seed-data SQL, operations/queries SQL, results and screenshots.
 - [ ] Tests executed and results documented
 - [ ] Pull request opened for integration review
 
-**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Deem.
+**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Diyam.

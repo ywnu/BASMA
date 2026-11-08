@@ -2,7 +2,7 @@
 
 **Project:** BASMA (MySQL database course project)
 
-**Assigned branch:** `feature/bayader-views-triggers-indexes`
+**Assigned branch:** `feature/views-triggers-indexes`
 
 ## Tasks
 1. Create useful MySQL views based on the approved schema (e.g., claims with sources/review status).
@@ -25,4 +25,4 @@ Views SQL, trigger/audit SQL, index SQL, screenshots and tests.
 - [ ] Tests executed and results documented
 - [ ] Pull request opened for integration review
 
-**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Deem.
+**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Diyam.

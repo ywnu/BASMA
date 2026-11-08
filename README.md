@@ -6,11 +6,11 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 | Member | Responsibility | Branch |
 |---|---|---|
-| Deem | Database Design | `feature/deem-database-design` |
-| Jumanah | Database Structure & Integration | `feature/jumanah-schema-integration` |
-| Aseel | SQL Operations & Sample Data | `feature/aseel-sql-operations` |
-| Hanan | Integrity & Transactions | `feature/hanan-integrity-transactions` |
-| Bayader | Views, Triggers & Indexing | `feature/bayader-views-triggers-indexes` |
+| Diyam | Database Design | `feature/database-design` |
+| Jumanah | Database Structure & Integration | `feature/schema-integration` |
+| Aseel | SQL Operations & Sample Data | `feature/sql-operations` |
+| Hanan | Integrity & Transactions | `feature/integrity-transactions` |
+| Bayader | Views, Triggers & Indexing | `feature/views-triggers-indexes` |
 
 ## Work plan (Weeks 12–14)
 
@@ -22,7 +22,7 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 ## Individual deliverables
 
-### Deem — Database Design
+### Diyam — Database Design
 1. Define the BASMA entities and attributes: Users, Projects, Sources, Claims, Evidence, Reviews, Versions; propose ActivityLogs if needed.
 2. Draw the EER diagram with primary keys, foreign keys, relationship cardinalities and optional/mandatory participation.
 3. Explain the relationships and normalize the design; coordinate final column names and data types with Jumanah.
@@ -30,10 +30,10 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 **Deliverables:** EER diagram, entity/relationship description, data dictionary, and design section for the report.
 
-**Working branch:** `feature/deem-database-design`
+**Working branch:** `feature/database-design`
 
 ### Jumanah — Database Structure & Integration
-1. Review Deem's approved EER diagram and map it to a relational schema.
+1. Review Diyam's approved EER diagram and map it to a relational schema.
 2. Implement MySQL CREATE TABLE scripts with PK, FK, data types, NOT NULL and other agreed constraints.
 3. Define a safe creation order and deletion behavior; do not cascade-delete verification history without approval.
 4. Integrate other members' scripts, resolve dependencies, and produce a reproducible database setup script.
@@ -41,7 +41,7 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 **Deliverables:** Relational schema, MySQL DDL scripts, integrated setup/run order, integration test evidence.
 
-**Working branch:** `feature/jumanah-schema-integration`
+**Working branch:** `feature/schema-integration`
 
 ### Aseel — SQL Operations & Sample Data
 1. Create representative INSERT data for all approved tables, respecting foreign-key order.
@@ -52,7 +52,7 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 **Deliverables:** Seed-data SQL, operations/queries SQL, results and screenshots.
 
-**Working branch:** `feature/aseel-sql-operations`
+**Working branch:** `feature/sql-operations`
 
 ### Hanan — Integrity & Transactions
 1. Test primary/foreign-key, uniqueness, NOT NULL and other approved integrity constraints.
@@ -63,7 +63,7 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 **Deliverables:** Integrity tests, transaction scripts, cascade/restrict examples, test evidence.
 
-**Working branch:** `feature/hanan-integrity-transactions`
+**Working branch:** `feature/integrity-transactions`
 
 ### Bayader — Views, Triggers & Indexing
 1. Create useful MySQL views based on the approved schema (e.g., claims with sources/review status).
@@ -74,7 +74,7 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 
 **Deliverables:** Views SQL, trigger/audit SQL, index SQL, screenshots and tests.
 
-**Working branch:** `feature/bayader-views-triggers-indexes`
+**Working branch:** `feature/views-triggers-indexes`
 
 ## Collaboration rules
 

@@ -1,8 +1,8 @@
-# Deem — Database Design
+# Diyam — Database Design
 
 **Project:** BASMA (MySQL database course project)
 
-**Assigned branch:** `feature/deem-database-design`
+**Assigned branch:** `feature/database-design`
 
 ## Tasks
 1. Define the BASMA entities and attributes: Users, Projects, Sources, Claims, Evidence, Reviews, Versions; propose ActivityLogs if needed.
@@ -24,4 +24,4 @@ EER diagram, entity/relationship description, data dictionary, and design sectio
 - [ ] Tests executed and results documented
 - [ ] Pull request opened for integration review
 
-**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Deem.
+**Important:** Do not edit `main` directly. Coordinate shared table definitions with Jumanah and Diyam.

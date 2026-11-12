@@ -1,6 +1,6 @@
 # Jumanah — Database Structure & Integration
 
-**Project:** BASMA (MySQL database course project)
+**Project:** BASMAH (MySQL database course project)
 
 **Assigned branch:** `feature/schema-integration`
 

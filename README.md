@@ -1,6 +1,6 @@
-# BASMA — Evidence & Source Tracking System
+# BASMAH — Evidence & Source Tracking System
 
-BASMA is a MySQL database course project for organizing projects, claims, sources, evidence, reviews and version history. The team is building the database deliverable first; AI and a web interface are future possibilities, not part of the current committed scope.
+BASMAH is a MySQL database course project for organizing projects, claims, sources, evidence, reviews and version history. The team is building the database deliverable first; AI and a web interface are future possibilities, not part of the current committed scope.
 
 ## Team ownership
 
@@ -23,7 +23,7 @@ BASMA is a MySQL database course project for organizing projects, claims, source
 ## Individual deliverables
 
 ### Diyam — Database Design
-1. Define the BASMA entities and attributes: Users, Projects, Sources, Claims, Evidence, Reviews, Versions; propose ActivityLogs if needed.
+1. Define the BASMAH entities and attributes: Users, Projects, Sources, Claims, Evidence, Reviews, Versions; propose ActivityLogs if needed.
 2. Draw the EER diagram with primary keys, foreign keys, relationship cardinalities and optional/mandatory participation.
 3. Explain the relationships and normalize the design; coordinate final column names and data types with Jumanah.
 4. Export the EER diagram and data dictionary for the report.

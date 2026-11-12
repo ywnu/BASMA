@@ -1,11 +1,11 @@
 # Diyam — Database Design
 
-**Project:** BASMA (MySQL database course project)
+**Project:** BASMAH (MySQL database course project)
 
 **Assigned branch:** `feature/database-design`
 
 ## Tasks
-1. Define the BASMA entities and attributes: Users, Projects, Sources, Claims, Evidence, Reviews, Versions; propose ActivityLogs if needed.
+1. Define the BASMAH entities and attributes: Users, Projects, Sources, Claims, Evidence, Reviews, Versions; propose ActivityLogs if needed.
 2. Draw the EER diagram with primary keys, foreign keys, relationship cardinalities and optional/mandatory participation.
 3. Explain the relationships and normalize the design; coordinate final column names and data types with Jumanah.
 4. Export the EER diagram and data dictionary for the report.

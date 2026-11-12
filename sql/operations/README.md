@@ -1,6 +1,6 @@
 # Aseel — SQL Operations & Sample Data
 
-**Project:** BASMA (MySQL database course project)
+**Project:** BASMAH (MySQL database course project)
 
 **Assigned branch:** `feature/sql-operations`
 

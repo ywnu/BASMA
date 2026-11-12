@@ -4,9 +4,21 @@
 **Section owner:** Diyam — Database Design  
 **Document status:** Draft based on the current proposed schema. Final approval requires ER/EER diagram review and alignment with the team's MySQL implementation.
 
-## 1. Database Design Overview
+## 1. Introduction and Database Design Overview
 
 BASMAH is a proposed relational database system for organizing projects, claims, supporting sources, evidence, review decisions, and change history. The database design aims to make each claim traceable to its project, author, evidence, source, and reviewer while reducing unnecessary duplication of data. MySQL is the planned database management system.
+
+## Problem Statement
+
+Projects that collect claims and supporting references need a consistent way to record which source supports which claim, who submitted or reviewed it, and how it changed over time. Without structured relational records, these links can become difficult to trace and review. BASMAH proposes a centralized database to organize these connections. This is the project's intended problem to address, not a claim about a measured existing deployment.
+
+## Objectives
+
+1. Design a relational schema that organizes users, projects, claims, sources, evidence, reviews, and history.
+2. Define clear primary keys, foreign keys, and relationships to support traceability and referential integrity.
+3. Reduce avoidable duplication by separating information into related tables and documenting normalization considerations.
+4. Support recording review decisions and claim changes in dedicated tables.
+5. Provide a schema that the team can implement and validate using MySQL, including the SQL features required by the instructor.
 
 ## 2. Entities and Attributes
 
@@ -52,23 +64,21 @@ The proposed schema was organized to support the first three normal forms:
 
 The current structure is designed toward 3NF; compliance is **not yet formally verified**. Detailed reasoning and caveats are in `NORMALIZATION.md`.
 
-## 5. Database Architecture
+## 5. Database Architecture and Network Type
 
-For conceptual documentation, BASMAH uses a proposed three-tier model:
+BASMAH uses a **centralized MySQL database design**. The project scope is database modeling, SQL implementation, and testing; a custom interface or interface-to-database connection is **not required** under the instructor's updated guidance.
 
 ```text
-User / Reviewer
-       |
-Presentation Layer (UI)
-       |
-Application Layer (Business Logic / API)
-       |
-MySQL Data Layer
-  Users | Projects | Sources | Claims
-  Evidence | Reviews | Versions | ActivityLogs
+MySQL Client / SQL Editor
+            |
+            v
+     MySQL Server
+            |
+            v
+BASMAH Centralized Database
 ```
 
-The UI and application layers are **conceptual**. The project has not yet demonstrated an implemented UI, API, or deployed three-tier application. If the final deliverable is SQL-only, this diagram remains illustrative rather than an implemented architecture. See `ARCHITECTURE.md`.
+MySQL uses a **client–server access model**. If the client and server run on the same computer using `localhost`, no LAN or WAN is required. A networked deployment is not part of the current project requirements. The actual testing environment must be confirmed by the implementation team before describing it as completed. See `ARCHITECTURE.md`.
 
 ## 6. Integrity and Design Considerations
 
@@ -94,4 +104,4 @@ The current BASMAH design documents a proposed eight-entity relational model wit
 - `DATA_DICTIONARY.md` — detailed table/column definitions
 - `RELATIONSHIPS.md` — relationship meanings, cardinalities, foreign keys
 - `NORMALIZATION.md` — 1NF, 2NF, and 3NF analysis
-- `ARCHITECTURE.md` — proposed conceptual architecture
+- `ARCHITECTURE.md` — centralized architecture and network type

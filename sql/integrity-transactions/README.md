@@ -1,6 +1,6 @@
 # Hanan — Integrity & Transactions
 
-**Project:** BASMA (MySQL database course project)
+**Project:** BASMAH (MySQL database course project)
 
 **Assigned branch:** `feature/integrity-transactions`
 

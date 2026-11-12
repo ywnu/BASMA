@@ -1,6 +1,6 @@
 # Bayader — Views, Triggers & Indexing
 
-**Project:** BASMA (MySQL database course project)
+**Project:** BASMAH (MySQL database course project)
 
 **Assigned branch:** `feature/views-triggers-indexes`
 
